@@ -125,7 +125,7 @@ public class AddContactsActivity extends Activity {
 		handler = new Handler() {
 			@Override
 			public void handleMessage(Message msg) {
-			/*	switch (msg.what) {
+				switch (msg.what) {
 				case AHttpAddContacts.GET_USER_SUCCESS:
 					android.util.Log.v("msg.what", "AHttpGetAllUser.GET_USER_SUCCESS");
 					// show listview
@@ -161,10 +161,10 @@ public class AddContactsActivity extends Activity {
 						}
 					});
 					//Toast.makeText(AddContactsActivity.this, "you and "+nick+"have been friend!", Toast.LENGTH_LONG).show();
-				/*	break;
+					break;
 				default:
 					break;
-				}*/
+				}
 			}
 		};
 	}
